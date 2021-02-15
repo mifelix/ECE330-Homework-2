@@ -1,0 +1,21 @@
+Static output:
+
+ Matrix a:
+
+1   2
+3   4
+
+ Matrix b:
+
+1   2
+3   4
+
+ a+b:
+
+2   4
+6   8
+
+ Transpose of a:
+
+1   3
+2   4
