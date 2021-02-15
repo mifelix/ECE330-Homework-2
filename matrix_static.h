@@ -4,11 +4,11 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <assert.h>
-#define FORMAT "%8.3lf"
+#define FORMAT "%d"
 #define MAX_ROW 10
 #define MAX_COL 10
 
-typedef double T;
+typedef int T;
 
 typedef struct {
   int  row_dim, col_dim;
@@ -30,5 +30,6 @@ matrix negate(matrix);
 matrix multiply(matrix, matrix);
 matrix scalar_multiply(T scalar, matrix);
 /* remaining function prototypes not shown */
+matrix transpose(matrix); 
 
 #endif
