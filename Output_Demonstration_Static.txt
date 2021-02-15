@@ -1,6 +1,4 @@
-Static output:
-
- Matrix a:
+Matrix a:
 
 1   2
 3   4
